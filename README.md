@@ -6,7 +6,7 @@ Die Dateien um den Stromzähler inbetrieb zu nehmen befindet sich im HomeAssista
 
 ## [Smart door](https://github.com/homeassihawk/Smart-Door)
 
-Über HomeAssistant steuerbare Türklingelanlage.
+Über HomeAssistant steuerbare Türklingelanlage per MQTT.
 
 ## [BME688](https://github.com/homeassihawk/BME688)
 
