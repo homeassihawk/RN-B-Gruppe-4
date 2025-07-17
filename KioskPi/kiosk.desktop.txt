@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=HomeAssistant Kiosk
+Exec=chromium-browser --noerrdialogs --kiosk http://10.108.2.179:8123 X-GNOME-Autostart-enable=true

@@ -1,0 +1,332 @@
+    - name: "Eastron Phase 1 Line to Neutral Volts"
+      unit_of_measurement: "V"
+      address: 0          # 30001 corresponds to address 0
+      input_type: input   
+      data_type: float32
+      scale: 1            
+      precision: 2        
+      
+
+    - name: "Eastron Phase 2 Line to Neutral Volts"
+      unit_of_measurement: "V"
+      address: 2          # 30003 corresponds to address 2
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Line to Neutral Volts"
+      unit_of_measurement: "V"
+      address: 4          # 30005 corresponds to address 4
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Current"
+      unit_of_measurement: "A"
+      address: 6          # 30007 corresponds to address 6
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 2 Current"
+      unit_of_measurement: "A"
+      address: 8          # 30009 corresponds to address 8
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Current"
+      unit_of_measurement: "A"
+      address: 10         # 30011 corresponds to address 10
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Power"
+      unit_of_measurement: "W"
+      address: 12         # 30013 corresponds to address 12
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 2 Power"
+      unit_of_measurement: "W"
+      address: 14         # 30015 corresponds to address 14
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Power"
+      unit_of_measurement: "W"
+      address: 16         # 30017 corresponds to address 16
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Volt Amps"
+      unit_of_measurement: "VA"
+      address: 18         # 30019 corresponds to address 18
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 2 Volt Amps"
+      unit_of_measurement: "VA"
+      address: 20         # 30021 corresponds to address 20
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Volt Amps"
+      unit_of_measurement: "VA"
+      address: 22         # 30023 corresponds to address 22
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Reactive Power"
+      unit_of_measurement: "VAr"
+      address: 24         # 30025 corresponds to address 24
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 2 Reactive Power"
+      unit_of_measurement: "VAr"
+      address: 26         # 30027 corresponds to address 26
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Reactive Power"
+      unit_of_measurement: "VAr"
+      address: 28         # 30029 corresponds to address 28
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Power Factor"
+      unit_of_measurement: "None"
+      address: 30         # 30031 corresponds to address 30
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+      
+    - name: "Eastron Phase 2 Power Factor"
+      unit_of_measurement: "None"
+      address: 32         # 30033 corresponds to address 32
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Power Factor"
+      unit_of_measurement: "None"
+      address: 34         # 30035 corresponds to address 34
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 1 Phase Angle"
+      unit_of_measurement: "Degrees"
+      address: 36         # 30037 corresponds to address 36
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 2 Phase Angle"
+      unit_of_measurement: "Degrees"
+      address: 38         # 30039 corresponds to address 38
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Phase 3 Phase Angle"
+      unit_of_measurement: "Degrees"
+      address: 40         # 30041 corresponds to address 40
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Average Line to Neutral Volts"
+      unit_of_measurement: "V"
+      address: 42         # 30043 corresponds to address 42
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Average Line Current"
+      unit_of_measurement: "A"
+      address: 46         # 30047 corresponds to address 46
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Sum of Line Currents"
+      unit_of_measurement: "A"
+      address: 48         # 30049 corresponds to address 48
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System Power"
+      unit_of_measurement: "W"
+      address: 52         # 30053 corresponds to address 52
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System Volt Amps"
+      unit_of_measurement: "VA"
+      address: 56         # 30057 corresponds to address 56
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System VAr"
+      unit_of_measurement: "VAr"
+      address: 60         # 30061 corresponds to address 60
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System Power Factor"
+      unit_of_measurement: "None"
+      address: 62         # 30063 corresponds to address 62
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System Phase Angle"
+      unit_of_measurement: "Degrees"
+      address: 66         # 30067 corresponds to address 66
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Frequency of Supply Voltages"
+      unit_of_measurement: "Hz"
+      address: 70         # 30071 corresponds to address 70
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total Import kWh"
+      unit_of_measurement: "kWh"
+      address: 72         # 30073 corresponds to address 72
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total Export kWh"
+      unit_of_measurement: "kWh"
+      address: 74         # 30075 corresponds to address 74
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total Import kVArh"
+      unit_of_measurement: "kVArh"
+      address: 76         # 30077 corresponds to address 76
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total Export kVArh"
+      unit_of_measurement: "kVArh"
+      address: 78         # 30079 corresponds to address 78
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total VAh"
+      unit_of_measurement: "kVAh"
+      address: 80         # 30081 corresponds to address 80
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Ah"
+      unit_of_measurement: "Ah"
+      address: 82         # 30083 corresponds to address 82
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
+
+    - name: "Eastron Total System Power Demand"
+      unit_of_measurement: "W"
+      address: 84         # 30085 corresponds to address 84
+      input_type: input
+      data_type: float32
+      scale: 1
+      precision: 2
+      
